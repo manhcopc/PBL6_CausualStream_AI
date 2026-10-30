@@ -1,0 +1,25 @@
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.env.*
+!.env.example
+results/
+outputs/
+*.log
+.DS_Store
+
+# The local checkpoint, exported bundle, videos and replay are not source code.
+PBL6_Full075_Test_077/*
+!PBL6_Full075_Test_077/__init__.py
+!PBL6_Full075_Test_077/demo_video_077.py
+!PBL6_Full075_Test_077/requirements-cpu.txt
+!PBL6_Full075_Test_077/LICENSE-Apache-2.0.txt
+!PBL6_Full075_Test_077/NOTICE_MODEL.md
+!PBL6_Full075_Test_077/CREDITS.md

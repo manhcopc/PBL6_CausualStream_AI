@@ -1,0 +1,2 @@
+-r PBL6_Full075_Test_077/requirements-cpu.txt
+torchvision==0.20.1
